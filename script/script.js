@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const yearSpan = document.getElementById("current-year");
+    yearSpan.textContent = new Date().getFullYear();
+    
     const form = document.getElementById("mc-embedded-subscribe-form");
     const errorResponse = document.getElementById("mce-error-response");
 

@@ -1,0 +1,108 @@
+/* Reset styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base typography */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+    color: #344343;
+    background-color: #f1ead1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Aesthetic defaults */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* Header / Footer */
+header,
+footer {
+    margin: 25px 25px;
+}
+
+.logo-container {
+    width: 200px;
+    height: auto;
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.copyright {
+    color: #ef4123;
+}
+
+/* Wrapper */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/* Main */
+main {
+    flex: 1;
+}
+
+/* Form */
+.email {
+    border: 2px solid #fcc79e;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.button {
+    background: #fcc79e;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 15px 25px;
+}
+
+/* Footer */
