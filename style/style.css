@@ -82,6 +82,7 @@ footer {
 
 /* Wrapper */
 .wrapper {
+    height: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px;
@@ -89,7 +90,13 @@ footer {
 
 /* Main */
 main {
+    align-content: center;
     flex: 1;
+    margin: 0 auto;
+}
+
+.main-content {
+    margin: auto 0;
 }
 
 /* Form */
