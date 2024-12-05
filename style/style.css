@@ -16,6 +16,7 @@ html {
 
 body {
     font-size: 1rem;
+    font-family: "Manrope", sans-serif;
     color: #344343;
     background-color: #f1ead1;
     display: flex;
