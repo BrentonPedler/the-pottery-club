@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const yearSpan = document.getElementById("current-year");
     yearSpan.textContent = new Date().getFullYear();
-    
+
     const form = document.getElementById("mc-embedded-subscribe-form");
     const errorResponse = document.getElementById("mce-error-response");
 
@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 form.style.display = "none";
                 const successMessage = document.createElement("div");
                 successMessage.id = "custom-success-message";
+                successMessage.classList.add(successMessage.id);
                 successMessage.innerHTML = "<p>Thank you for subscribing! Look out for news and updates.</p>";
                 form.parentNode.appendChild(successMessage);
             } else {
